@@ -2,10 +2,10 @@ import React from "react";
 
 function Header() {
     return(
-        <header>
+        <div>
             <h1>Welcome to GhatGPT Api you bitch</h1>
-        </header>
+        </div>
     )
 }
 
-export default Header();
+export default Header;

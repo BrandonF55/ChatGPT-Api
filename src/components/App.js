@@ -1,4 +1,6 @@
 import axios from "axios";
+import Header from "./Header";
+import '../App.css';
 import { useState } from "react";
 
 function App() {
@@ -22,15 +24,20 @@ function App() {
 
   return (
     <div>
+      <Header />
       <form onSubmit={handleSubmit}>
         <input
           type="text"
+          placeholder="Ask Me Something!"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <br/>
+        <br/>
+        <button type="submit">See What You Get</button>
       </form>
-      <p>{response}</p>
+      <br/>
+      <p className="response-box">{response}</p>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+body {
+ background-image: url('https://erowall.com/wallpapers/original/12306.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.response-box {
+    border: 2px solid #ccc; /* border style */
+    padding: 10px; /* padding around the text */
+    margin-top: 10px; /* space between the text box and the button */
+    height: 40%; /* set the height of the box to auto */
+    width: 30%;
+    margin: auto
+  }
+  
